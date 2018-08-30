@@ -5,16 +5,6 @@
     <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
   </PropertyGroup>
   <ItemGroup>
-    <EmbeddedResource Include="MainPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <Compile Include="MainPage.xaml.fs">
-      <DependentUpon>MainPage.xaml</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="App.xaml" />
-    <Compile Include="App.xaml.fs">
-      <DependentUpon>App.xaml</DependentUpon>
-    </Compile>
     <Compile Include="AssemblyInfo.fs" />
     <Compile Include="App.fs" />
   </ItemGroup>
