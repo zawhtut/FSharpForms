@@ -39,3 +39,5 @@ Thumbs.db
 
 # dotCover
 *.dotCover
+/Droid/Resources/Resource.designer.cs
+/FSharpForms/App.fs
